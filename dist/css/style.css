@@ -1,0 +1,33 @@
+.tittle-pokemones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+div img {
+    max-height: 220px;
+    min-height: 220px;
+}
+
+div h2 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.page-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 1rem;
+    margin-inline: 6rem;
+    font-size: 2rem;
+}
